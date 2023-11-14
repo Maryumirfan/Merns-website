@@ -1,0 +1,14 @@
+.logform{
+    background-color: rgba(0, 0, 0, 0.669);
+    box-shadow: 1px 1px 4px white;
+    padding: 32px 34px;
+}
+.btn1{
+    background-color: rgb(17, 228, 158);
+    border: none;
+    color: black;
+}
+.btn:hover{
+    background-color: rgb(3, 126, 85);
+    color: white;
+}

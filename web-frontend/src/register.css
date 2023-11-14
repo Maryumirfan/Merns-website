@@ -1,0 +1,36 @@
+body{
+    /* background-color: rgb(0, 74, 74); */
+    color: white;
+    background-image: url('https://i.redd.it/d2hd73xxwvaa1.jpg');
+    background-size: cover;
+    background-position: fixed;
+}
+.form{
+    background-color: rgba(0, 0, 0, 0.669);
+    box-shadow: 1px 1px 4px white;
+    padding: 32px 34px;
+}
+.btn{
+    background-color: rgb(17, 228, 158);
+    border: none;
+    color: black;
+}
+.btn:hover{
+    background-color: rgb(3, 126, 85);
+    color: white;
+}
+.btn2{
+    background-color: rgb(3, 99, 112);
+    border: none;
+    color: black;
+    margin-left: 5px;
+}
+.btn2:hover{
+    background-color: aqua;
+}
+.link{
+    color: white;
+}
+.link:hover{
+   color: black;
+}
