@@ -1,7 +1,33 @@
+.login{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    color: white;
+    height: 100vh;
+    background-image: url('https://i.redd.it/d2hd73xxwvaa1.jpg');
+    background-size: cover;
+    background-position: fixed;
+}
+.d2{
+    display: flex;
+   justify-content: center;
+   margin-top: 60px;
+}
 .logform{
     background-color: rgba(0, 0, 0, 0.669);
     box-shadow: 1px 1px 4px white;
-    padding: 32px 34px;
+    padding: 30px 32px;
+    width: 30%;
+    text-align: center;
+}
+.hh1{
+    font-size: smaller;
+}
+.l2{
+    color: white;
+}
+.l2:hover{
+   color: rgb(6, 176, 176);
 }
 .btn1{
     background-color: rgb(17, 228, 158);

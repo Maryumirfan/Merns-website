@@ -24,7 +24,9 @@ const Register = () => {
   };
   
   return (
-    <Form onSubmit={HandleSubmit} className='form' >
+    <div className='register'>
+      <div className='d1'>
+      <Form onSubmit={HandleSubmit} className='form' >
       <h3>CREATE ACCOUNT</h3> <br></br>
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Control type="text" placeholder="Your Name" required 
@@ -54,12 +56,17 @@ const Register = () => {
       </Form.Group>
       <Form.Group className="mb-2" controlId="formBasicCheckbox">
         <Form.Check type="checkbox" label="I agree all statements in Terms of services" required/>
-      </Form.Group>
-      <Button variant="primary" type="submit" className='btn'>
+      </Form.Group> 
+      <Button  type="submit" className='btn'>
         SIGN UP
       </Button> 
-      <h6>Have already an account?<Link to="/login" className='link'>Login Here</Link></h6>
+
+      <h6  className='hh'>Have already an account?<Link to="/login" className='link'> Login Here</Link></h6>
     </Form>
+      </div>
+    
+    </div>
+   
   );
 }
 

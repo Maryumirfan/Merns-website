@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: rgba(53, 211, 211, 0.616);
+}
+.n1{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+.btn3{
+    background-color: rgb(18, 18, 95);
+}
+.btn3:hover{
+    background-color: rgb(4, 35, 175);
+}
+.l4{
+    text-decoration-line: none;
+    color: white;
+}
