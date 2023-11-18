@@ -1,22 +1,28 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
+
 .nav{
-    background-color: rgba(53, 211, 211, 0.616);
+    background: rgb(20,55,81);
+    background: linear-gradient(90deg, rgb(7, 43, 70) 36%, rgba(31,85,105,1) 50%, #143751 65%);
+    position: relative;
 }
 .n1{
     color: white;
     text-shadow: 2px 2px 2px black;
 }
 .btn3{
-    background-color: rgb(18, 18, 95);
+    background-color: transparent;
 }
 .btn3:hover{
-    background-color: rgb(4, 35, 175);
+    background-color: rgba(83, 85, 92, 0.717);
 }
 .l4{
     text-decoration-line: none;
     color: white;
+}
+.l6{
+    color: white;
+    text-decoration-line: none;
+    font-size: 18px;
+}
+.l6:hover{
+    color: black;
 }

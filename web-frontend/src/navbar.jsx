@@ -16,8 +16,10 @@ function NavScroll() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
+          <Nav.Link> <Link to= '/home' className='l6'>Home</Link></Nav.Link>
+            <Nav.Link> <Link to= '/news' className='l6'>News</Link></Nav.Link>
+
           </Nav>
-         
             <Button  className='btn3'><Link to="/register"className='l4'>Sign Out</Link></Button>
         
         </Navbar.Collapse>

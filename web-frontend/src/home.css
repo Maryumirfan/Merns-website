@@ -3,20 +3,29 @@
     padding: 0%;
     box-sizing: border-box;
 }
-.home{
+.d5{
     max-width: 1280px;
     margin: 0 auto;
     padding: 2rem;
-    height: 100vh;
-    background-image: url('b3.png');
+    height: 90vh;
+    background-image: url('https://wallpaperaccess.com/full/1573587.jpg');
+    opacity: 0.4;
     background-size: cover;
     background-position: fixed;
+    position: relative;
+
+}
+.d4{
+    background-color: black;
+    height: 90vh;
 }
 .btn2{
-    background-color: rgb(18, 18, 95);
+    background-color:transparent ;
     padding: 9px 20px;
-    border: none;
-    border-radius: 10%;
+    border: 3px solid orange;
+    position: absolute;
+    top: 420px;
+    left: 560px;
    
 }
 .d3{
@@ -25,7 +34,7 @@
     margin-top: 30px;
 }
 .btn2:hover{
-    background-color: rgb(2, 51, 148);
+    background-color: orange;
    
 }
 .l2{
@@ -33,14 +42,15 @@
     text-decoration-line: none;
 }
 .l2:hover{
-    color: rgb(255, 254, 254);
+    color: rgb(0, 0, 0);
 }
 .wel{
-    display: flex;
-    justify-content: center;
     color: white;
-    margin-top: 100px;
     font-size: 80px;
     text-shadow: 2px 2px 2px black;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    text-align: center;
 }
 
